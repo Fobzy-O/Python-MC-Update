@@ -14,7 +14,7 @@ def main():
 
 def remove_html(text):
         """Filter out versions"""
-        pattern = re.compile('(\d+\.\d+\.\d+)')
+        pattern = re.compile('(\d+\.\d+.\d+|\d+\.\d+)')
         return re.findall(pattern, str(text))
 
 
