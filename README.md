@@ -20,4 +20,5 @@ Python script that automates the checking and installation of Craftbukkit on Uni
  
  
  
- 
+ ## Security
+ Please create a low-level user that has access to start the minecraft server. In this instance the user is `mcservice`. The update files should be in the `/root/` directory as it runs the updater script as `mcservice`. 
